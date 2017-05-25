@@ -157,3 +157,62 @@ In order to ensure loose coupling, each service has its own database.
 
 - Use an event-driven archirecture (Event Sourcing, Transaction Log Tailing).
 ]
+---
+template: inverse
+## Docker
+---
+background-image: url(what-is-docker.png)
+---
+layout: false
+.left-column[
+  ## What is Docker?
+]
+.right-column[
+- An open platform for developers and sysadmins to build, ship, and run distributed applications.
+
+- Enables apps to be quickly assembled from components and eliminates the friction between development, QA, and production environments.
+
+- Eliminates *“works on my machine”* problems.
+
+- DevOps run and manage apps side-by-side in isolated containers to get better compute density.
+
+- Works on both Microsoft Windows and all major Linux distributions.
+]
+---
+layout: false
+.left-column[
+  ## What is Docker?
+  ## What is a Container?
+]
+.right-column[
+Everything required to make a piece of software run is packaged into isolated containers.
+
+- Unlike VMs, containers do not bundle a full operating system.
+
+- Efficient, lightweight, self-contained systems.
+
+- Guarantee that software will always run the same, regardless of where it’s deployed.
+
+- Isolate applications from one another and from the underlying infrastructure.
+]
+---
+layout: false
+.left-column[
+  ## What is Docker?
+  ## What is a Container?
+  ## Container vs VMs
+]
+.right-column[
+  .full-width[![](vm.png)]
+]
+---
+layout: false
+.left-column[
+  ## What is Docker?
+  ## What is a Container?
+  ## Container vs VMs
+]
+.right-column[
+  .full-width[![](container.png)]
+]
+---
