@@ -9,6 +9,9 @@ class: center, middle, inverse
 template: default
 ![](docker.png)
 # Introduction to Docker Containers and Microservices
+.footnote[
+  Andrei Todorov (26 May 2017)
+]
 ---
 ## Monolithic Architecture
 ---
